@@ -1,0 +1,159 @@
+<html>
+<title>Channel</title>
+<head>
+<link rel="stylesheet" type="text/css" href="channel.css"/>
+<link href="skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+
+</head>
+<body>
+
+<div class="Container">
+<div id="Headcon">
+         <div id="Headcon-left">
+         <img src="Pictures/meme.png">
+		 <label>DANIELTV.COM</label>
+		 <strong>THE BEST WEB DEVELOPER SITE.</strong>
+        </div>
+		
+		
+		<div id="Headcon-right">
+		     <div id="Headcon-up">
+			  <p><span style="Color:#00ff00;">FOR</span> MORE <span style="Color:violet;">INFORMATION</span> <span style="Color:skyblue;">PLEASE</span> <span style="Color:#ff0404;">VISIT</span> <span style="Color:orange;">THE</span> <span style="Color:#ffffff;">FOLLOWING:</span></p> 
+			 </div>
+			<div id="Headcon-down">
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="Pictures/dota_2_by_jjcool87-dagbd0q.png"></a>
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="Pictures/dota_2_icon_for_windows_7_by_excharny-d5ook5y.png"></a>
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="Pictures/meme.png"></a>
+		    </div>
+      </div>
+</div>
+
+ <div id ="Navigation">
+   <div class="fullwidth">
+     <header class ="mainheader">
+      <nav>
+	  <ul>
+	     <li><a href = "Excercise5.html"><b><span style="color:#00ff00;">HOME</span></b></a></li>
+		 <li><a href = "channel.html"><b>CHANNEL</b></a></li>
+		 <li><a href = "Videos.html"><b>VIDEOS</b></a></li>
+		 <li ><a href = "about.html"><b>ABOUT</b></a></li>
+		 <li><a href = "Nobigdeal.php"><b>CONTACT</b></a></li>
+		 <li><a href = "news.html"><b>NEWS</b></a></li>
+		 <li><a href = "Media.html"><b>MEDIA</b></a></li>
+		 <li><a href = "DanielTv.html"><b>DANIEL'S TV.COM</b></a></li>
+		 <li><a href = "More innformation.html"><b>MORE INFORMATION</b></a></li>
+	   </ul>
+	   </nav>
+	   </header>
+	   </div>
+
+
+</div>
+
+        <div id="Body">
+                    
+				
+<div id="Body-right">
+           
+		   <div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="image/Ronald1.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="image/Ronald2.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald3.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="image/Ronald4.png" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald5.jpg" class="random" /></a></li>
+			        <li><a href="#blindHeight"><img src="image/Ronald6.png" class="random" /></a></li>
+                    <li><a href="#blindHeight"><img src="image/Ronald7.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald8.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald9.jpg" class="random" /></a></li>
+				</ul>
+			</div>  
+
+      </div> 
+                     
+</div>
+
+<div id="header12">
+<h2 style="position:absolute;color:yellow; font-size:60px; text-align:center; padding-left:200px; padding-top:100px; font-weight:bold;">
+WELCOME TO MY CHANNEL</h2>
+<img src="image/dan4.jpg" style="width:1200px; height:200px;">
+
+</div>
+
+<div id="header1">
+<img src="image/dan5.png" style="width:1200px; height:500px;">
+</div>
+
+<div id="header2">
+<img src="image/dan6.png" style="width:1200px; height:500px;">
+</div>
+
+<div id="header3">
+<img src="image/dan7.png" style="width:1200px; height:500px;">
+</div>
+
+<center>
+<div id="header4" style="font-size:30px; font-weight:bold; padding-top:20px;">
+<h1>Please Support My Channel!</h1>
+<a href=""><input type="submit" value="Subscribe" style="background-color:#ff0000; color:#ffffff;"></a>
+<input type="submit" value="Share"  style="background-color:blue; color:#ffffff;">
+<input type="submit" value="Comment" style="background-color:green; color:#ffffff;">
+<a href=""><input type="submit" value="Subscribe" style="background-color:#ff0000; color:#ffffff;"></a>
+<input type="submit" value="Share"  style="background-color:blue; color:#ffffff;">
+<input type="submit" value="Comment" style="background-color:green; color:#ffffff;">
+</div>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

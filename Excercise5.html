@@ -1,0 +1,211 @@
+<html>
+<title>Home</title>
+<head>
+<link rel="stylesheet" type="text/css" href="Excercise5.css"/>
+<link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
+	
+	<script src="js/jquery-1.6.3.min.js"></script>
+	<script src="js/jquery.skitter.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		var options = {};
+	
+		if (document.location.search) {
+			var array = document.location.search.split('=');
+			var param = array[0].replace('?', '');
+			var value = array[1];
+			
+			if (param == 'animation') {
+				options.animation = value;
+			}
+			else if (param == 'type_navigation') {
+				if (value == 'dots_preview') {
+					$('.border_box').css({'marginBottom': '40px'});
+					options['dots'] = true;
+					options['preview'] = true;
+				}
+				else {
+					options[value] = true;
+					if (value == 'dots') $('.border_box').css({'marginBottom': '40px'});
+				}
+			}
+		}
+		
+		$('.box_skitter_large').skitter(options);
+		
+		// Highlight
+		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+		
+	});
+	</script>
+	
+
+</head>
+<body>
+
+<div class="Container">
+<div id="Headcon">
+         <div id="Headcon-left">
+         <img src="Pictures/meme.png">
+		 <label>DANIELTV.COM</label>
+		 <strong>THE BEST WEB DEVELOPER SITE.</strong>
+        </div>
+		
+		
+		<div id="Headcon-right">
+		     <div id="Headcon-up">
+			  <p><span style="Color:#00ff00;">FOR</span> MORE <span style="Color:violet;">INFORMATION</span> <span style="Color:skyblue;">PLEASE</span> <span style="Color:#ff0404;">VISIT</span> <span style="Color:orange;">THE</span> <span style="Color:#ffffff;">FOLLOWING:</span></p> 
+			 </div>
+			<div id="Headcon-down">
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="image/i.png"></a>
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="image/t.png"></a>
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="image/f.png" style="border-radius:10px;"></a>
+			<a href="https://www.facebook.com/ target" target="_blank"><img src="image/p.png"></a>
+		    </div>
+      </div>
+</div>
+
+ <div id ="Navigation">
+   <div class="fullwidth">
+     <header class ="mainheader">
+      <nav>
+	  <ul>
+	     <li><a href = "Home.html"><b><span style="color:#00ff00;">HOME</span></b></a></li>
+		 <li><a href = "channel.html"><b>CHANNEL</b></a></li>
+		 <li><a href = "Videos.html"><b>VIDEOS</b></a></li>
+		 <li ><a href = "About.html"><b>ABOUT</b></a></li>
+		 <li><a href = "Nobigdeal.php"><b>CONTACT</b></a></li>
+		 <li><a href = "news.html"><b>NEWS</b></a></li>
+		 <li><a href = "Media.html"><b>MEDIA</b></a></li>
+		 <li><a href = "DanielTv.html"><b>DANIEL'S TV.COM</b></a></li>
+		 <li><a href = "More innformation.html"><b>MORE INFORMATION</b></a></li>
+	   </ul>
+	   </nav>
+	   </header>
+	   </div>
+
+
+</div>
+
+        <div id="Body">
+                      <div id="Body-left">
+                            <img src="Pictures/dota_2_by_jjcool87-dagbd0q.png">
+							<img src="Pictures/dota_2_icon_for_windows_7_by_excharny-d5ook5y.png">
+							 <label>ABOUT DOTA 2</label>
+						    <dt>
+							 <p><span style="padding-left:30px;">"Dota"</span> redirects here. For other uses, see DOTA (disambiguation). Defense of the Ancients (Dota) is a multiplayer online battle arena mod for the video game Warcraft III: Reign of Chaos and its expansion, Warcraft III: The Frozen Throne. The objective of the game is for each team to destroy their opponents' Ancient, a heavily guarded structure at the opposing corner of the map, which is based on the "Aeon of Strife" map for StarCraft. Players use powerful units known as heroes, and are assisted by allied teammates and AI-controlled fighters.</p>
+                     </div>    
+				
+<div id="Body-right">
+           
+		   <div class="box_skitter box_skitter_large " style= " z-index:0;">
+				<ul>
+					<li><a href="#blindHeight"><img src="image/Ronald1.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="image/Ronald2.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald3.jpg" class="random" /></a></li>
+					<li><a href="#blindWidth"><img src="image/Ronald4.png" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald5.jpg" class="random" /></a></li>
+			        <li><a href="#blindHeight"><img src="image/Ronald6.png" class="random" /></a></li>
+                    <li><a href="#blindHeight"><img src="image/Ronald7.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald8.jpg" class="random" /></a></li>
+					<li><a href="#blindHeight"><img src="image/Ronald9.jpg" class="random" /></a></li>
+				</ul>
+			</div>  
+
+      </div> 
+                     
+</div>
+
+
+<div id="Body2-left">
+<video controls loop  autoplay width="100%;">
+<source src="Dota2.mp4">
+</video>
+</div>
+
+<div id="BodyGo">
+
+<div id="Body2-right">
+<h1><img src="Pictures/Ronald4.png" style="width:30px; height:30px; line-height:30px;">ALL TEAMS</h1>
+<br>
+<hr>
+<ul>
+<li>TNC PRO TEAM</img></li>
+<li>MINESKI</li>
+<li>LIQUID</li>
+<li>FANATIC</li>
+<li>OG PRO TEAM</li>
+<li>EG PRO</li>
+<li>VICTUS PRO</li>
+<li>LCD PRO TEAM</li>
+<li>COMPLIXITY</li>
+</ul>
+</div>
+
+<div id="Body2-right1">
+<h1><img src="Pictures/Ronald4.png" style="width:30px; height:30px; line-height:30px;">COUNTRY'S</h1>
+<br>
+<hr>
+<ul>
+<li>PHILIPPINES</li>
+<li>MALAYSIA</li>
+<li>EUROPE</li>
+<li>SOUTH EAST ASIA</li>
+<li>NORTH AMERICA</li>
+<li>AMERICA</li>
+<li>CANADA</li>
+<li>CHINA</li>
+<li>SOUTH AMERICA</li>
+</ul>
+</div>
+  </div>
+  
+  <div id="Navigation20">
+	      
+				<a href=""><span><img class="imgpic" src="Pictures/Ro1.jpg"></span></a>
+					<a href=""><span><img class="imgpic" src="Pictures/Ro2.jpg"></span></a>
+						<a href=""><span><img class="imgpic" src="Pictures/Ro3.png"></span></a>
+							<a href=""><span><img class="imgpic" src="Pictures/Ro4.png"></span></a>
+								<a href=""><span><img class="imgpic" src="Pictures/Ro5.jpg"></span></a>
+	                                <a href=""><span><img class="imgpic" src="Pictures/Ro6.png"></span></a>
+
+	  </div>
+  
+  <div id= "Navigation11">
+	  <h1 style="text-align:right; color:#ffffff; font-weight:bold; .margin-top:20px;">All teams</h1>
+	  <ul>
+	         <li>TNC</li><br>	
+			 <li>Mineski</li><br>
+			 <li>Victus-Pro</li><br>
+			   <li>Liquid</li><br>
+			     <li>LGD</li><br>
+				   <li>Complicity</li><br>
+				     <li>Fanatic</li><br>
+	         </ul>
+	                  </div>
+	   <div id= "Navigation22">
+	                <h1></h1>
+	                          </div>
+	   <div id= "Navigation33">
+	                <h1></h1>
+	                              </div>
+
+       <div id= "Footer">
+	  <h1>Cookies@ Are you Satisfy? All rights Reserve 2017-2018</h1>
+	  </div>
+	  
+	  <div id="Footer1">
+	   <h2 style="color:#ffffff; margin-top:10px;">For more information please Visit the following:</h2>
+	   <br>
+	   <p><span style="Color:#00ff00;">Contact Number:</span> 09161851490</p>
+	   <p><span style="Color:#00ff00;">Gmail:</span> ronalddanieljr@gmail.com</p>
+	   <p><span style="Color:#00ff00;">Facebook:</span> ronald_jade18@yahoo.com</p>
+	  </div>
+
+
+
+</div>
+</body>
+</html>
